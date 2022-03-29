@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#122537"
+    tools:context=".activities.ui.dashboard.CalculatorFragment">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Stock Code:"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_stock_code"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:maxLength="30"
+        android:hint="AAPL"
+        android:textColor="@color/black"
+        android:textColorHint="#777B80"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_border"
+        android:textAlignment="center"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_start_date"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:maxLength="30"
+        android:hint="1/1/2022"
+        android:textColorHint="#FFFFFF"
+        android:layout_gravity="center"
+
+        android:backgroundTint="@color/button_blue"
+        android:textAlignment="center"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Date"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_end_date"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:maxLength="30"
+        android:hint="1/1/2022"
+        android:textColorHint="#FFFFFF"
+        android:layout_gravity="center"
+
+        android:backgroundTint="@color/button_blue"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stock Price"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/button_blue"
+
+            android:layout_marginEnd="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indicators"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/button_blue"
+
+            android:layout_marginEnd="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Days"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/et_player_name"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="4"
+            android:hint="1"
+            android:textColor="@color/black"
+            android:textColorHint="#777B80"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edit_text_border"
+            android:textAlignment="center"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forecast"
+
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_blue"
+
+
+        />
+</LinearLayout>

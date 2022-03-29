@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFDFD"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/un"
+        />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock Predictor"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/button_blue"
+        android:textAlignment="center"
+        />
+
+    <EditText
+
+        android:padding="5dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/et_username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="30"
+        android:textColor="@color/black"
+        android:hint="Email or Username"
+        android:textColorHint="#777B80"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_border"
+        android:paddingStart="10dp"
+        />
+
+
+    <EditText
+
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/et_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLength="30"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textColorHint="#777B80"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_border"
+        android:paddingStart="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign IN"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_blue"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Not registered? Click here to "
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/button_blue"
+            android:text="Sign Up"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
